@@ -41,7 +41,7 @@ cmake_arguments=" -DCMAKE_SKIP_RPATH=1 "
 
 # separate out pass-through cmake args, if present
 rezcmakeargs=
-cmakeargs=
+cmakeargs=$CMAKE_ARGS
 atfirst=1
 
 for arg in $* ; do
